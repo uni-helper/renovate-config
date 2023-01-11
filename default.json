@@ -4,7 +4,7 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["^@dcloudio/"],
-      "groupName": "dcloudio (uni-app)"
+      "groupName": "@dcloudio (uni-app)"
     }
   ]
 }
