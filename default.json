@@ -1,6 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base", "schedule:monthly", ":preserveSemverRanges"],
+  "extends": [
+    "config:base",
+    "schedule:quarterly",
+    "group:allNonMajor",
+    ":preserveSemverRanges"
+  ],
   "packageRules": [
     {
       "matchPackagePatterns": ["^@dcloudio/"],
