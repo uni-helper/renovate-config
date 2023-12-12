@@ -5,8 +5,8 @@
     "group:recommended",
     "group:allNonMajor",
     "npm:unpublishSafe",
-    "schedule:automergeWeekends",
-    "schedule:weekends",
+    "schedule:automergeMonthly",
+    "schedule:monthly",
     ":automergeStableNonMajor",
     ":preserveSemverRanges"
   ],
