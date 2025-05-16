@@ -2,11 +2,9 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended",
-    "group:recommended",
     "group:allNonMajor",
     "npm:unpublishSafe",
     "schedule:automergeMonthly",
-    "schedule:monthly",
     ":automergeStableNonMajor",
     ":preserveSemverRanges"
   ],
